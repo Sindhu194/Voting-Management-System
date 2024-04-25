@@ -137,7 +137,7 @@
           <h3> <b>VOTES TALLY
             <span class="pull-right">
             
-              <a href="print.php" class="btn btn-success btn-sm btn-curve" style="background-color: #2E8B57 ;color:black ; font-size: 12px; font-family:Times "><span class="glyphicon glyphicon-print"></span> Print</a>
+              <!-- <a href="print.php" class="btn btn-success btn-sm btn-curve" style="background-color: #2E8B57 ;color:black ; font-size: 12px; font-family:Times "><span class="glyphicon glyphicon-print"></span> Print</a> -->
             </span>
          </b> </h3>
         </div>

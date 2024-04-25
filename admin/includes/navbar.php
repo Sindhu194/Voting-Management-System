@@ -13,9 +13,9 @@
   
 
     <!-- Sidebar toggle button-->
-    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+    <!-- <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
       <span class="sr-only ">Toggle navigation</span>
-    </a>
+    </a> -->
 
     <div class="navbar-custom-menu" style="color:black ; font-size: 17px; font-family:Times">
       <ul class="nav navbar-nav" style="background-color: #717A83 ;color:black ; font-size: 17px; font-family:Times" >
