@@ -10,14 +10,14 @@
             <div class="modal-body">
               <form class="form-horizontal" method="POST" action="voters_add.php" enctype="multipart/form-data">
                 <div class="form-group">
-                    <label for="firstname" class="col-sm-3 control-label">Firstname</label>
+                    <label for="firstname" class="col-sm-3 control-label">First Name</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="firstname" name="firstname" required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="lastname" class="col-sm-3 control-label">Lastname</label>
+                    <label for="lastname" class="col-sm-3 control-label">Last Name</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="lastname" name="lastname" required>
@@ -28,13 +28,6 @@
 
                     <div class="col-sm-9">
                       <input type="password" class="form-control" id="password" name="password" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="photo" class="col-sm-3 control-label">Photo</label>
-
-                    <div class="col-sm-9">
-                      <input type="file" id="photo" name="photo">
                     </div>
                 </div>
             </div>

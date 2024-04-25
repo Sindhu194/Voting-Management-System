@@ -7,7 +7,7 @@
   <?php include 'includes/menubar.php'; ?>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper" style="background-color:#F1E9D2 ">
+  <div class="content-wrapper" style="background-color:#FFFFFF ">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1><b>
@@ -51,10 +51,9 @@
             <div class="box-body">
               <table id="example1" class="table ">
                 <thead>
-                  <th>Lastname</th>
-                  <th>Firstname</th>
-                  <th>Photo</th>
-                  <th>Voters ID</th>
+                  <th>ID</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
                   <th>Tools</th>
                 </thead>
                 <tbody>
@@ -62,18 +61,12 @@
                     $sql = "SELECT * FROM voters";
                     $query = $conn->query($sql);
                     while($row = $query->fetch_assoc()){
-                      $image = (!empty($row['photo'])) ? '../images/'.$row['photo'] : '../images/profile.jpg';
                       echo "
-                        <tr style='color:black ; font-size: 15px; font-family:Times'>
-                          <td>".$row['lastname']."</td>
+                        <tr style='color:black ; font-size: 15px; font-family:Times'> 
+                          <td>".$row['id']."</td>
                           <td>".$row['firstname']."</td>
-                          <td>
-                            <img src='".$image."' width='30px' height='30px'>
-                            <a href='#edit_photo' data-toggle='modal' class='pull-right photo' data-id='".$row['id']."'><span class='fa fa-edit'></span></a>
-                          </td>
-                          <td>".$row['voters_id']."</td>
-                          <td>
-                           
+                          <td>".$row['lastname']."</td>
+                          <td> 
                             <button class='btn btn-success btn-sm edit btn-curve' style='background-color: #9CD095 ;color:black ; font-size: 12px; font-family:Times' ' data-id='".$row['id']."' ><i class='fa fa-edit'></i> Edit</button>
                             <button class='btn btn-danger btn-sm delete btn-curve' style='background-color:#ff8e88 ;color:black ; font-size: 12px; font-family:Times ' data-id='".$row['id']."'><i class='fa fa-trash'></i> Delete</button>
 

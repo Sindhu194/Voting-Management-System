@@ -6,7 +6,7 @@
 ?>
 <?php include 'includes/header.php'; ?>
 
-<body class="hold-transition login-page" style="background-color:#F1E9D2" >
+<body class="hold-transition login-page" style="background-color:#FFFFFF" >
 <div class="login-box" style="background-color:#a69f8b ;color:white ; font-size: 22px; font-family:Times">
   	<div class="login-logo" style="background-color: #a69f8b  ;color:white ; font-size: 22px; font-family:Times  ">
   		<b> Online Voting System</b>

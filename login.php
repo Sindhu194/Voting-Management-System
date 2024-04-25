@@ -6,7 +6,7 @@
 		$voter = $_POST['voter'];
 		$password = $_POST['password'];
 
-		$sql = "SELECT * FROM voters WHERE voters_id = '$voter'";
+		$sql = "SELECT * FROM voters WHERE id = '$voter'";
 		$query = $conn->query($sql);
 
 		if($query->num_rows < 1){

@@ -7,7 +7,7 @@
   <?php include 'includes/menubar.php'; ?>
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper" style="background-color:#F1E9D2 ;color:black ; font-size: 17px; font-family:Times ">
+  <div class="content-wrapper" style="background-color:#FFFFFF;color:black ; font-size: 17px; font-family:Times ">
     <!-- Content Header (Page header) -->
     <section class="content-header" style= "color:black ; font-size: 17px; font-family:Times">
       <h1>

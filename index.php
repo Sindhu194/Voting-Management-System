@@ -9,14 +9,14 @@
     }
 ?>
 <?php include 'includes/header.php'; ?>
-<body class="hold-transition login-page" style="background-color:#F1E9D2"> 
+<body class="hold-transition login-page" style="background-color:#FFFFFF"> 
 <div class="login-box" style="background-color:#a69f8b ;color:white ; font-size: 22px; font-family:Times">
-  	<div class="login-logo" style="background-color:#a69f8b ;color:white ; font-size: 22px; font-family:Times  ">
+  	<div class="login-logo" style="background-color:#a69f8b ;color:white ; font-size: 22px; font-family:Times; padding-top: 3rem; margin-bottom: 0">
   		<b> Online Voting System</b>
   	</div>
   
   	<div class="login-box-body" style="background-color:#a69f8b ;color:white ; font-size: 22px; font-family:Times" >
-    	<p class="login-box-msg" style="color:black ; font-size: 16px; font-family:Times  " >Sign in to start your voting session</p>
+    	<p class="login-box-msg" style="color:black ; font-size: 16px; font-family:Times" >Sign in to start your voting session</p>
 
     	<form action="login.php" method="POST">
       		<div class="form-group has-feedback">
